@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(192, 192, 192);
+}
+
+#sounds {
+    display: flex;
+    flex-direction: column;
+}
+
+#records{
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.sound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    background: rgb(3, 133, 255);
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    flex-direction: column;
+}
+.sound span{
+    font-size: 30px;
+}
+
+.path{
+    display: flex;
+    flex-direction: column;
+}
+
+.choosePath{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background: rgb(3, 133, 255);
+    font-size: 20px;
+}
+button:hover{
+    background: rgb(252, 1, 1);
+}
+.choosePath span{
+    font-size: 20px;
+}
+input{
+    width: 20px;
+    height: 20px;
+}
